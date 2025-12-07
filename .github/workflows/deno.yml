@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>منوی کافه</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f7f3ee;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background: #4a3f35;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 22px;
+        }
+
+        .menu-section {
+            margin: 20px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .menu-section h2 {
+            color: #4a3f35;
+            border-bottom: 2px solid #e0ddd9;
+            padding-bottom: 10px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px dashed #ccc;
+            font-size: 18px;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .price {
+            color: #4a3f35;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>منوی کافه مانیا</header>
+
+<div class="menu-section">
+    <h2>☕ نوشیدنی‌های گرم</h2>
+    <div class="item">
+        <span>کاپوچینو</span><span class="price">120,000</span>
+    </div>
+    <div class="item">
+        <span>لاته</span><span class="price">130,000</span>
+    </div>
+    <div class="item">
+        <span>قهوه ترک</span><span class="price">90,000</span>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>🧊 نوشیدنی‌های سرد</h2>
+    <div class="item">
+        <span>آیس لاته</span><span class="price">150,000</span>
+    </div>
+    <div class="item">
+        <span>آیس موکا</span><span class="price">160,000</span>
+    </div>
+</div>
+
+<div class="menu-section">
+    <h2>🍰 دسر و کیک</h2>
+    <div class="item">
+        <span>چیزکیک</span><span class="price">110,000</span>
+    </div>
+    <div class="item">
+        <span>براونی</span><span class="price">95,000</span>
+    </div>
+</div>
+
+</body>
+</html>
+📌 می‌خوای چه کاری برات انجام بدم؟
+می‌تونم برایت:
+
+✅ یک سایت حرفه‌ای‌تر طراحی کنم
+✅ رنگ‌بندی دلخواه اضافه کنم
+✅ QR کد بسازم که مستقیماً به این سایت وصل شود
+✅ سایت را برایت در قالب فایل ZIP آماده کنم
+✅ حتی اگر خواستی روی یک هاست رایگان منتشرش کنم
+
+فقط بگو می‌خوای سایتت چه شکلی باشد؟ 🎨✨
+
+
+
+
+
+
+
+You said:
+روی یک هاست رایگان برام منتشرش کن
+
+
+ChatGPT said:
+متأسفانه من امکان این‌که خودم سایت را روی اینترنت منتشر کنم یا روی هاست آپلود کنم را ندارم، اما می‌تونم خیلی ساده و کامل راهنمایی‌ات کنم که در کمتر از ۵ دقیقه خودت روی یک هاست رایگان منتشرش کنی — بدون نیاز به هیچ برنامه‌نویسی.
+
+اینجا بهترین و ساده‌ترین روش‌ها را گذاشتم:
+
+✅ روش شماره ۱ — آپلود سایت روی Netlify (کاملاً رایگان و بسیار آسان)
+۱) وارد سایت Netlify شوید
+netlify.com
+
+۲) روی "Deploy a site" بزنید
+۳) فایل ZIP یا خود فایل index.html را Drop کنید
+۴) سایت آماده است!
+Netlify یک لینک مثل این بهت می‌دهد:
+
+arduino
+Copy code
+https://yourcafe.netlify.app
+می‌تونی لینک را برای QR هم استفاده کنی.
+
+✅ روش شماره ۲ — آپلود روی GitHub Pages (رایگان و دائمی)
+این روش یک لینک ثابت و قوی بهت می‌دهد.
+
+مراحل:
+یک اکانت GitHub بساز
+
+یک Repository بساز
+
+فایل index.html را آپلود کن
+
+وارد Settings → Pages شو
+
+Source = “Deploy from branch” را انتخاب کن
+
+یک لینک مثل این می‌گیری:
+
+arduino
+Copy code
+https://username.github.io/cafe-menu
+✅ روش شماره ۳ — هاست رایگان ایرانی (بدون دردسر)
+چند هاست رایگان ایرانی:
+
+gigfa.com
+
+bathi.ir
+
+hostiran.net free trial
+
+در این‌ها:
+
+ثبت‌نام کن
+
+وارد File Manager شو
+
+فایل index.html را داخل public_html آپلود کن
+
+تمام! لینک بالا می‌آید.
+
+اگر بخواهی، من می‌توانم:
+✔ فایل ZIP آماده سایتت را بسازم
+✔ QR Code لینک را برایت تولید کنم
+✔ متن، رنگ‌بندی و عکس‌ها را سفارشی کنم
+✔ حتی یک قالب حرفه‌ای‌تر طراحی کنم
+
+فقط بگو:
+می‌خوای از کدام روش استفاده کنیم؟
+اگر بخواهی فایل ZIP را هم همین‌جا برات می‌سازم.
+
+
+
+
+
+
+
+
+
+
+
+Choose filesNo file chosenChoose filesNo file chosen
+ChatGPT can make mistakes. Check important info. See Cookie 
